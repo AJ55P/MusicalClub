@@ -4,7 +4,6 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel watch WebApp/index.html",
     "build": "parcel build WebApp/index.html --public-url ./"
   },
   "author": "",
