@@ -1,0 +1,236 @@
+/*
+Web App styling!
+*/
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: rgb(165, 108, 46);
+}
+
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#root{
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    margin-bottom: 50px;
+}
+
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 0;
+    background-color: rgb(205, 205, 76);
+    list-style-type: none;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(255, 250, 160);
+}
+
+nav > ul > li > a{
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-size: 2.1rem;
+    padding: 5px;
+}
+
+main{
+    background-color: white;
+    padding: 2.5rem;
+}
+
+main > section{
+    margin-top: 50px;
+}
+
+/* Table Styling */
+
+/* Members Table */
+#MembersTable{
+    table-layout: fixed;
+    border: 3px solid black;
+    font-size: 1.8rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#MembersTable td{
+    line-break: anywhere;
+}
+
+#MembersTable thead td:nth-child(1){
+    width:7%;
+}
+
+#MembersTable thead td:nth-child(2){
+    width: 25%;
+}
+
+#MembersTable thead td:nth-child(3){
+    width: 25%;
+}
+
+#MembersTable thead td:nth-child(4){
+    width: 43%;
+}
+/* Members Table */
+
+
+/* Activities Table */
+#ActivitiesTable{
+    border: 3px solid black;
+    font-size: 1.8rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+/* Activities Table */
+
+
+/* General Table Styling */
+table > thead{
+    background-color:rgb(172, 145, 126);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    padding: .5rem;
+    border: 3px solid black;
+}
+
+
+/* Table Styling */
+
+
+/*Grid Styling/Login Component*/
+
+#loginGridContainer{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    display:grid;
+    grid-template-columns: 2fr 10fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+#loginGridContainer label{
+    text-align: center;
+}
+
+#credSection{
+    background-color: cornsilk;
+    padding: 5px;
+}
+
+/*Grid Styling/Login Component*/
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif
+}
+
+section > h2{
+    border: 3px solid black;
+    border-radius: 5px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 5px;
+    background-color: rgb(206, 204, 204);
+    font-size: 3.2rem;
+}
+
+footer{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+/* Image styling guitar and piano */
+
+figure{
+    position: relative;
+    max-width: 1700px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    z-index: -123;
+}
+
+
+figure img:nth-child(1){
+    max-width: 100%;
+}
+
+figure img:nth-child(2){
+    max-width: 100%;
+}
+
+
+
+
+/* Image styling guitar and piano */
+
+
+/*log in error popup*/
+
+#errorPopup{
+    text-align: center;
+    font-size: 2.2rem;
+    background-color:rgb(255, 177, 177);
+    border: 3px solid red;
+}
+
+/*log in error popup*/
+
+
+button{
+    font-size: 1.4rem;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+
+button:hover{
+    background-color: rgb(186, 186, 186);
+    color: white;
+    cursor:pointer;
+}
+
+/* Logout Component styling */
+
+#LogoutComp{
+    background-color: rgb(255, 240, 154);
+}
+
+
+/* Logout Component styling */
+
+section > input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+

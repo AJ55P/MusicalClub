@@ -1,0 +1,128 @@
+/*  
+Home page styling page
+*/
+
+html{
+	font-size: 10px;
+}
+
+#menu{
+	position: fixed;
+	top: 0;
+	border: 1rem solid rgb(122, 174, 194);
+	margin-top: 0;
+	left: 5rem;
+	right: 5rem;
+	background: skyblue;
+}
+
+#menu > ul{
+	margin: 0;
+	padding: 1.5rem;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+#menu > ul > li{
+	list-style-type: none;
+	margin:  0 .5rem .5rem 0;
+}
+
+#menu > ul > li > a{
+	font-family: Trebuchet MS, Arial, sans-serif;
+	font-size: 2.1rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+#menu > ul > li > a:hover{
+	text-decoration: underline; 
+}
+
+
+
+body{
+	height: 1200px;
+	margin-top: 0;
+	background-color: rgb(102, 102, 255);
+	padding: 20px 20px 20px 20px;
+}
+
+header{
+	max-width: 900px;
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(128, 128, 255);
+}
+
+header > h1{
+	margin: 0;
+	text-align: center;
+	color: skyblue;
+	font-size: 4.5rem; 
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+
+main{
+	border-radius: 4px;
+	background-color: white;
+	max-width: 1000px;
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+main h2{
+	font-size: 2.7rem;
+	text-align: center;
+}
+
+
+/* Styling for discs inside main */
+
+section.discs{
+	padding: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	max-width: 98%;
+	background-color: rgb(109, 211, 116);
+}
+
+section.discs > p{
+	max-width: 84%;
+	font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+	font-size: 1.8rem;
+	padding: 0 0 .5rem .5rem; 
+}
+
+section.discs:nth-child(1) {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin-bottom: 5px;
+}
+section.discs:nth-child(2) {
+	margin-bottom: 5px;
+}
+
+/* Styling for discs inside main */
+
+
+/* home page image styling */
+
+main > figure > img{
+	max-width: 100%;
+}
+
+body > footer{
+	font-size: 1.8rem;
+	font-family:'Trebuchet MS', sans-serif;
+	text-align: center;
+}

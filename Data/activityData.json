@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Jam Nights",
+        "dates": ["August 2nd", "August 3rd", "August 4th", "August 5th", 
+        "August 6th", "August 7th"],
+        "description": "Late afternoon get together to jam togetherm, chat, and have an overall good time."
+    },
+
+    {
+        "name": "Live Shows",
+        "dates": ["October 2nd", "October 3rd", "October 4th"],
+        "description": "Participants will be divide into groups and work on arrangemnents."
+    },
+
+    {
+        "name": "Theory/Technical Classes",
+        "dates": ["December 2nd", "December 3rd", "December 4th", "December 14th"
+        , "December 24th", "December 25th"],
+        "description": "General Theory classes that cover a variety of different instruments including technical playing and chops!"
+    }
+]
