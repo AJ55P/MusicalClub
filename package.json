@@ -2,10 +2,6 @@
   "name": "webappportprod",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build WebApp/index.html --public-url ./"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
