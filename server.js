@@ -1,5 +1,3 @@
-
-
 const express = require('express');
 const app = express();
 
@@ -11,21 +9,6 @@ let clubEvents = require('./Data/activityData.json');
 let clubMembers = require('./Data/clubMembers.json');
 
 const port = 3000;
-
-app.use(express.static('static'));
-
-
-app.get('/', function(req, res){
-    
-    let filePath = path.join(__dirname + '/index.html');
-
-    res.sendFile(filePath, function(error){
-        if(error){
-            res.send("No Such file exists.")
-        }
-    });
-});
-
 
 const cookieName = 'clubSid';
 
@@ -74,7 +57,7 @@ app.get('/webApp', function(req, res){
     
     res.sendFile(filePath, function(error){
         if(error){
-            res.send("No Such file exists.")
+            res.send("No such file exists.")
         }
     });
 });
@@ -91,8 +74,6 @@ app.get('/members', adminProtecMiddleware, function(req, res){
     });
     res.json(filteredMembers);
 });
-
-
 
 
 app.post('/login', express.json(), function(req, res){
@@ -148,8 +129,7 @@ app.get('/logout', function(req, res){
 
 
 let notAvailable404Middleware = function(req, res){
-    let filePath = path.join(__dirname + '/static/404error.html');
-    res.status(404).sendFile(filePath);
+    res.status(404).json({error: "does not exit"});
 };
 
 app.use(notAvailable404Middleware);
