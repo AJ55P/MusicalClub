@@ -1,9 +1,10 @@
 # Welcome to my fictitious "Musical Club" full stack web app!
 
+### Live Deployment on Heroku: <a href="https://ajwebportfolio.herokuapp.com" target = "_blank">https://ajwebportfolio.herokuapp.com</a>
 
 
-**Description:** 
-
+**Description:**
+ 
 1. This is a multi-user web app, allowing for users to log in and maintain their session. Its role based access control app where there exists the guest role, the member role, and lastly the admin role. 
 
 2. Password based authentication is supported on the api server and utilizes the bcrypt.js library to hash the password, add some salt, then compare user's plain text password with the hashed version for a match.
