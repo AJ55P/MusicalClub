@@ -1,6 +1,6 @@
 # Welcome to my fictitious "Musical Club" full stack web app!
 
-### Live Deployment on Heroku: <a href="https://ajwebportfolio.herokuapp.com" target = "_blank">https://ajwebportfolio.herokuapp.com</a>
+### Live Deployment on Heroku: <a href="https://musicclubapp.herokuapp.com">https://musicclubapp.herokuapp.com</a>
 
 
 **Description:**
