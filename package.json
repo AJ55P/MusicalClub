@@ -1,21 +1,19 @@
 {
   "name": "webappportprod",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "scripts":{
+    "start": "node server.js"
+  },
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "express-session": "^1.17.2"
   },
   "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "@parcel/transformer-image": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0"
-  },
-  "engines":{
-    "node": "14.17.6"
   }
 }

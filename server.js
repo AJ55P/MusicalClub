@@ -50,10 +50,10 @@ const adminProtecMiddleware = function(req, res, next){
 };
 
 
-app.use(express.static('App'));
+app.use(express.static('Deploy'));
 app.get('/webApp', function(req, res){
 
-    let filePath = path.join(__dirname + '/App/index.html');
+    let filePath = path.join(__dirname + '/Deploy/index.html');
     
     res.sendFile(filePath, function(error){
         if(error){
