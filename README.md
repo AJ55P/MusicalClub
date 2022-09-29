@@ -1,8 +1,5 @@
 # Welcome to my fictitious "Musical Club" full stack web app!
 
-### Live Deployment on Heroku: <a href="https://musicclubapp.herokuapp.com">https://musicclubapp.herokuapp.com</a>
-
-
 **Description:**
  
 1. This is a multi-user web app, allowing for users to log in and maintain their session. Its role based access control app where there exists the guest role, the member role, and lastly the admin role. 
