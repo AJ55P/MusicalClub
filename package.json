@@ -1,8 +1,9 @@
 {
   "name": "webappportprod",
   "version": "1.0.0",
-  "scripts":{
-    "start": "node server.js"
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "license": "ISC",
   "dependencies": {
@@ -11,9 +12,10 @@
     "express-session": "^1.17.2"
   },
   "devDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "@parcel/transformer-image": "^2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0"
+    "nodemon": "^2.0.20",
+    "parcel": "^2.0.0-rc.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

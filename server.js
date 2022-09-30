@@ -50,8 +50,8 @@ const adminProtecMiddleware = function(req, res, next){
 };
 
 
-app.use(express.static('Deploy'));
-app.get('/webApp', function(req, res){
+app.use(express.static('Deploy', {index: 'false'}));
+app.get('/', function(req, res){
 
     let filePath = path.join(__dirname + '/Deploy/index.html');
     
