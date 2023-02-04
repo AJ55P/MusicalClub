@@ -1,5 +1,7 @@
 # Welcome to my fictitious "Musical Club" full stack web app!
 
+### Live Deployment on Render: <a href="https://music-club-app.onrender.com">https://music-club-app.onrender.com</a>
+
 **Description:**
  
 1. This is a multi-user web app, allowing for users to log in and maintain their session. Its role based access control app where there exists the guest role, the member role, and lastly the admin role. 
